@@ -1,0 +1,307 @@
+body{
+	margin: 0;
+	line-height: 1.6;
+	background: linear-gradient(180deg, #492B9F 21.67%, rgba(41, 24, 90, 0.567819) 55.52%, rgba(0, 0, 0, 0) 100%) no-repeat;
+	
+}
+
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+}
+li{
+	list-style-type: none;
+}
+/*Слайдер*/
+.layout { 
+	margin-right: 10px;
+}
+
+.sidebar { 
+
+	float: left; 
+	position: fixed;
+	background: white;
+	width: 7%	;
+/*Шапка*/
+}
+.nav{
+	margin-top: 20px;
+	color: white;
+}
+.header{
+	
+}
+.header_inner{
+	display: flex;
+	justify-content:space-between;
+}
+.nav_header{
+	margin-top: 2%;
+}
+.br{
+	margin-right: -20px;
+}
+.header_h1{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 26px;
+	line-height: 150%;
+	color: #FFFFFF;
+	margin-top: 1%;
+	margin-left: 10%;
+}
+.li_heaer{
+	display: inline-block;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 150%;
+	color: #FEFEFE;
+	margin-right: 80px;
+}
+.img_ph{
+	margin-right: 20px;
+	width:60px;
+	height: 60px;
+}
+.phone{
+	margin-right: 10%;
+	margin-top: 5px;
+	display: flex;
+}
+
+.p_sep{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 26px;
+	line-height: 152%;
+/* identical to box height, or 27px */
+color: #FFFFFF;
+margin-bottom: -3%;
+
+}
+.p_sub{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 150%;
+
+	color: #FFFFFF;
+
+}
+/*Товары*/
+.section_sub{
+	margin-top: 10%;
+	width: 55%;
+
+}
+.sub_inner{
+	float: left;
+	
+	margin-left: 20%;
+}
+.img_sub{
+	float: right;
+	position: absolute;
+	border-radius: 100px;
+}
+.sub_h{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+/* or 125% */
+
+letter-spacing: -1px;
+
+color: #FFFFFF;
+}
+.sub_p{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 143%;
+	margin-top: 5%;
+	letter-spacing: -0.2px;
+	width: 60%;
+	color: #FFFFFF;
+}
+.but_sub{
+	border:0;
+	margin-top: 5%;
+	width: 307px;
+	height: 88px;
+	background: #0582B8;
+	border-radius: 8px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 152%;
+	color: #FFFFFF;
+}
+/* сецкия ебать какой то мужик */
+.section_sub_tw{
+	margin-top: 50%;
+	width: 55%;
+}
+.kat{
+	margin-top: 80%;
+}
+.h_kat{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 133%;
+	text-align: center;
+	color;
+}
+.up_box{
+	margin-top: 5%;
+	display: flex;
+	margin-left: 10%;
+}
+.upp_box{
+	flex: 1 1 0;
+}
+
+.box{
+	width: 380px;
+	height: 637px;
+	background: #FFFFFF;
+	border-radius: 30px;
+
+}
+
+.supsc{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	padding-left: 5%;
+	color: #2E363E;
+}
+.box_hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.rename{
+	color: white;
+	font-weight: 700;
+}
+.but_kat{
+	text-align: center;
+	margin-top: 5%;
+	width: 189px;
+	height: 68px;
+	border: 0;
+	background: #0582B8;
+	border-radius: 8px;
+	margin-left: 5%;
+}
+.name{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 143%;
+	color: #2E363E;
+	margin-left: 5%;
+	margin-bottom: 3%;
+}
+.price{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	color: #434B53;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+/*ну футер это понятно*/
+.fot{
+	margin-top: 10%;
+	text-align: center;
+}
+.foter_header{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+.nav_cans{
+	flex: 1 1 0;
+}
+.p_cans_o{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 17px;
+	color: #313131;
+}
+.p_cans_i{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 25px;
+
+	color: #40A2D5;
+
+}
+.p_cans{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #6B6B6B;
+}
+/*Слайдер*/
+.section_swip{
+	margin-top: 10%;
+}
+.swiper_h{
+	text-align: center;
+	padding-bottom: -3%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 133%;
+	color: #2E363E;
+}
+.swiper{
+	width: 1000px;
+	height: 500px;
+	border-radius: 10px;
+}
+.swiper-slide{
+	text-align: center;
+	font-size: 18px;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 170%;
+	color: #2E363E;
+}
+.swiper-slide img{
+	width: 58%;
+	object-fit: cover;
+}
